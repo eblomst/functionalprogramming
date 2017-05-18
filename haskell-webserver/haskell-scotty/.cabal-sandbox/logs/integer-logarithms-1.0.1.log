@@ -1,0 +1,27 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27058/integer-logarithms-1.0.1'
+Configuring integer-logarithms-1.0.1...
+Building integer-logarithms-1.0.1...
+Preprocessing library integer-logarithms-1.0.1...
+[1 of 4] Compiling GHC.Integer.Logarithms.Compat ( src/GHC/Integer/Logarithms/Compat.hs, dist/dist-sandbox-4b96eff2/build/GHC/Integer/Logarithms/Compat.o )
+[2 of 4] Compiling Math.NumberTheory.Powers.Integer ( src/Math/NumberTheory/Powers/Integer.hs, dist/dist-sandbox-4b96eff2/build/Math/NumberTheory/Powers/Integer.o )
+[3 of 4] Compiling Math.NumberTheory.Powers.Natural ( src/Math/NumberTheory/Powers/Natural.hs, dist/dist-sandbox-4b96eff2/build/Math/NumberTheory/Powers/Natural.o )
+[4 of 4] Compiling Math.NumberTheory.Logarithms ( src/Math/NumberTheory/Logarithms.hs, dist/dist-sandbox-4b96eff2/build/Math/NumberTheory/Logarithms.o )
+[1 of 4] Compiling GHC.Integer.Logarithms.Compat ( src/GHC/Integer/Logarithms/Compat.hs, dist/dist-sandbox-4b96eff2/build/GHC/Integer/Logarithms/Compat.p_o )
+[2 of 4] Compiling Math.NumberTheory.Powers.Integer ( src/Math/NumberTheory/Powers/Integer.hs, dist/dist-sandbox-4b96eff2/build/Math/NumberTheory/Powers/Integer.p_o )
+[3 of 4] Compiling Math.NumberTheory.Powers.Natural ( src/Math/NumberTheory/Powers/Natural.hs, dist/dist-sandbox-4b96eff2/build/Math/NumberTheory/Powers/Natural.p_o )
+[4 of 4] Compiling Math.NumberTheory.Logarithms ( src/Math/NumberTheory/Logarithms.hs, dist/dist-sandbox-4b96eff2/build/Math/NumberTheory/Logarithms.p_o )
+Running Haddock for integer-logarithms-1.0.1...
+Preprocessing library integer-logarithms-1.0.1...
+Haddock coverage:
+ 100% (  5 /  5) in 'GHC.Integer.Logarithms.Compat'
+ 100% (  3 /  3) in 'Math.NumberTheory.Powers.Integer'
+ 100% (  3 /  3) in 'Math.NumberTheory.Powers.Natural'
+ 100% ( 17 / 17) in 'Math.NumberTheory.Logarithms'
+Documentation created:
+dist/dist-sandbox-4b96eff2/doc/html/integer-logarithms/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-integer-logarithms-1.05371406231848682420.1
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/integer-logarithms-1.0.1-41Vx8Gc1I6fAYpZXPW8o2w
+Registering integer-logarithms-1.0.1...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27058/integer-logarithms-1.0.1'

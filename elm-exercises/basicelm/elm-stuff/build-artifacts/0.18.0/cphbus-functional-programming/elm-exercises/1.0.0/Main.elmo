@@ -1,0 +1,95 @@
+var _cphbus_functional_programming$elm_exercises$Main$view = function (model) {
+	var progress = _elm_lang$core$Basics$toString(model);
+	return A2(
+		_elm_lang$svg$Svg$svg,
+		{
+			ctor: '::',
+			_0: _elm_lang$svg$Svg_Attributes$viewBox('0 0 120 120'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$svg$Svg_Attributes$width('500px'),
+				_1: {ctor: '[]'}
+			}
+		},
+		{
+			ctor: '::',
+			_0: A2(
+				_elm_lang$svg$Svg$rect,
+				{
+					ctor: '::',
+					_0: _elm_lang$svg$Svg_Attributes$x('10'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$svg$Svg_Attributes$y('10'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$svg$Svg_Attributes$width('100'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$svg$Svg_Attributes$height('6'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$svg$Svg_Attributes$rx('2'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$svg$Svg_Attributes$ry('2'),
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				},
+				{ctor: '[]'}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$svg$Svg$rect,
+					{
+						ctor: '::',
+						_0: _elm_lang$svg$Svg_Attributes$x('10'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$svg$Svg_Attributes$y('10'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$svg$Svg_Attributes$width(progress),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$svg$Svg_Attributes$height('6'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$svg$Svg_Attributes$rx('2'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$svg$Svg_Attributes$ry('2'),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$svg$Svg_Attributes$fill('#AAA'),
+												_1: {ctor: '[]'}
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					{ctor: '[]'}),
+				_1: {ctor: '[]'}
+			}
+		});
+};
+var _cphbus_functional_programming$elm_exercises$Main$update = F2(
+	function (msg, model) {
+		var _p0 = msg;
+		return {ctor: '_Tuple2', _0: _p0._0, _1: _elm_lang$core$Platform_Cmd$none};
+	});
+var _cphbus_functional_programming$elm_exercises$Main$init = {ctor: '_Tuple2', _0: 0, _1: _elm_lang$core$Platform_Cmd$none};
+var _cphbus_functional_programming$elm_exercises$Main$Tick = function (a) {
+	return {ctor: 'Tick', _0: a};
+};
+var _cphbus_functional_programming$elm_exercises$Main$subscriptions = function (model) {
+	return A2(_elm_lang$core$Time$every, _elm_lang$core$Time$millisecond, _cphbus_functional_programming$elm_exercises$Main$Tick);
+};
+var _cphbus_functional_programming$elm_exercises$Main$main = _elm_lang$html$Html$program(
+	{init: _cphbus_functional_programming$elm_exercises$Main$init, view: _cphbus_functional_programming$elm_exercises$Main$view, update: _cphbus_functional_programming$elm_exercises$Main$update, subscriptions: _cphbus_functional_programming$elm_exercises$Main$subscriptions})();

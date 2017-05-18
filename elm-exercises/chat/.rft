@@ -1,0 +1,53 @@
+Active Internet connections
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
+tcp6       0      0  2001:2012:1100:d.55592 edge-star-mini6-.https ESTABLISHED
+tcp4       0      0  emmas-mbp.lan.55520    93.184.220.94.https    ESTABLISHED
+tcp6       0      0  2001:2012:1100:d.55491 arn09s11-in-x03..https ESTABLISHED
+tcp6       0      0  2001:2012:1100:d.55485 arn09s11-in-x04..https ESTABLISHED
+tcp6       0      0  2001:2012:1100:d.55484 li-in-x9c.1e100..https ESTABLISHED
+tcp6       0      0  2001:2012:1100:d.55483 arn09s10-in-x0e..https ESTABLISHED
+tcp4       0      0  emmas-mbp.lan.55466    gw046.lphbs.com.https  ESTABLISHED
+tcp4       0      0  emmas-mbp.lan.55454    ec2-184-72-238-1.https ESTABLISHED
+tcp4       0      0  emmas-mbp.lan.55425    ec2-52-207-199-5.https ESTABLISHED
+tcp6       0      0  2001:2012:1100:d.55241 2620:119:50e2:10.https ESTABLISHED
+tcp6       0      0  2001:2012:1100:d.55240 2620:119:50e2:10.https ESTABLISHED
+tcp6       0      0  2001:2012:1100:d.54733 edge-star6-shv-0.https ESTABLISHED
+tcp4       0      0  emmas-mbp.lan.53589    dsldevice.lan.microsof ESTABLISHED
+tcp4       0      0  emmas-mbp.lan.53534    40.101.45.82.https     ESTABLISHED
+tcp4       0      0  emmas-mbp.lan.53529    li-in-f109.1e100.imaps ESTABLISHED
+tcp4       0      0  emmas-mbp.lan.50567    ams10-004.ff.ava.http  ESTABLISHED
+tcp4       0      0  emmas-mbp.lan.50168    17.252.92.13.5223      ESTABLISHED
+tcp4       0      0  emmas-mbp.lan.50166    17.125.243.9.imaps     ESTABLISHED
+tcp4       0      0  emmas-mbp.lan.50163    17.125.243.9.imaps     ESTABLISHED
+tcp4       0      0  localhost.49314        localhost.52893        ESTABLISHED
+tcp4       0      0  localhost.52893        localhost.49314        ESTABLISHED
+tcp4       0      0  10.50.138.117.51023    edge-star-shv-01.https ESTABLISHED
+tcp6       0      0  fe80::a623:3331:.black fe80::e92e:e1e4:.51245 ESTABLISHED
+tcp6       0      0  fe80::a623:3331:.1024  fe80::e92e:e1e4:.1024  ESTABLISHED
+tcp4       0      0  emmas-mbp.lan.55604    a104-120-241-51..https TIME_WAIT  
+tcp4       0      0  emmas-mbp.lan.55594    ec2-34-250-16-65.https TIME_WAIT  
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.62887                *.*                               
+udp6       0      0  2001:2012:1100:d.ntp   *.*                               
+udp6       0      0  *.60210                *.*                               
+udp4       0      0  *.60210                *.*                               
+udp6       0      0  *.55825                *.*                               
+udp4       0      0  *.55825                *.*                               
+udp6       0      0  *.57718                *.*                               
+udp4       0      0  *.57718                *.*                               
+udp6       0      0  *.57844                *.*                               
+udp4       0      0  *.57844                *.*                               
+udp6       0      0  *.50514                *.*                               
+udp4       0      0  *.50514                *.*                               
+udp6       0      0  *.62581                *.*                               
+udp4       0      0  *.62581                *.*                               
+udp4       0      0  emmas-mbp.lan.ntp      *.*                               
+udp4       0      0  *.*                    *.*                               
+udp6       0      0  fe80::14b7:6e0d:.ntp   *.*                               
+udp4       0      0  *.*                    *.*                               
+udp6       0      0  fe80::a623:3331:.ntp   *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*               

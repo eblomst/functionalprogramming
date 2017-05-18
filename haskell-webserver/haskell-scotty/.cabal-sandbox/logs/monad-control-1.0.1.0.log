@@ -1,0 +1,21 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27048/monad-control-1.0.1.0'
+Configuring monad-control-1.0.1.0...
+Building monad-control-1.0.1.0...
+Preprocessing library monad-control-1.0.1.0...
+[1 of 1] Compiling Control.Monad.Trans.Control ( Control/Monad/Trans/Control.hs, dist/dist-sandbox-4b96eff2/build/Control/Monad/Trans/Control.o )
+[1 of 1] Compiling Control.Monad.Trans.Control ( Control/Monad/Trans/Control.hs, dist/dist-sandbox-4b96eff2/build/Control/Monad/Trans/Control.p_o )
+Running Haddock for monad-control-1.0.1.0...
+Preprocessing library monad-control-1.0.1.0...
+Haddock coverage:
+  93% ( 27 / 29) in 'Control.Monad.Trans.Control'
+  Missing documentation for:
+    MonadTransControl (Control/Monad/Trans/Control.hs:110)
+    MonadBaseControl (Control/Monad/Trans/Control.hs:292)
+Documentation created:
+dist/dist-sandbox-4b96eff2/doc/html/monad-control/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-monad-control-1.0.1307187357347221711.0
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/monad-control-1.0.1.0-49Hei1wJW1ACN6RZpF8agb
+Registering monad-control-1.0.1.0...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27048/monad-control-1.0.1.0'

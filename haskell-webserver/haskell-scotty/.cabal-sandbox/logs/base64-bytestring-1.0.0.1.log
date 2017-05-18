@@ -1,0 +1,37 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27052/base64-bytestring-1.0.0.1'
+Configuring base64-bytestring-1.0.0.1...
+Building base64-bytestring-1.0.0.1...
+Preprocessing library base64-bytestring-1.0.0.1...
+[1 of 5] Compiling Data.ByteString.Base64.Internal ( Data/ByteString/Base64/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/ByteString/Base64/Internal.o )
+[2 of 5] Compiling Data.ByteString.Base64.URL ( Data/ByteString/Base64/URL.hs, dist/dist-sandbox-4b96eff2/build/Data/ByteString/Base64/URL.o )
+[3 of 5] Compiling Data.ByteString.Base64.URL.Lazy ( Data/ByteString/Base64/URL/Lazy.hs, dist/dist-sandbox-4b96eff2/build/Data/ByteString/Base64/URL/Lazy.o )
+[4 of 5] Compiling Data.ByteString.Base64 ( Data/ByteString/Base64.hs, dist/dist-sandbox-4b96eff2/build/Data/ByteString/Base64.o )
+[5 of 5] Compiling Data.ByteString.Base64.Lazy ( Data/ByteString/Base64/Lazy.hs, dist/dist-sandbox-4b96eff2/build/Data/ByteString/Base64/Lazy.o )
+[1 of 5] Compiling Data.ByteString.Base64.Internal ( Data/ByteString/Base64/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/ByteString/Base64/Internal.p_o )
+[2 of 5] Compiling Data.ByteString.Base64.URL ( Data/ByteString/Base64/URL.hs, dist/dist-sandbox-4b96eff2/build/Data/ByteString/Base64/URL.p_o )
+[3 of 5] Compiling Data.ByteString.Base64.URL.Lazy ( Data/ByteString/Base64/URL/Lazy.hs, dist/dist-sandbox-4b96eff2/build/Data/ByteString/Base64/URL/Lazy.p_o )
+[4 of 5] Compiling Data.ByteString.Base64 ( Data/ByteString/Base64.hs, dist/dist-sandbox-4b96eff2/build/Data/ByteString/Base64.p_o )
+[5 of 5] Compiling Data.ByteString.Base64.Lazy ( Data/ByteString/Base64/Lazy.hs, dist/dist-sandbox-4b96eff2/build/Data/ByteString/Base64/Lazy.p_o )
+Running Haddock for base64-bytestring-1.0.0.1...
+Preprocessing library base64-bytestring-1.0.0.1...
+Haddock coverage:
+  45% (  5 / 11) in 'Data.ByteString.Base64.Internal'
+  Missing documentation for:
+    mkEncodeTable (Data/ByteString/Base64/Internal.hs:100)
+    done (Data/ByteString/Base64/Internal.hs:260)
+    peek8 (Data/ByteString/Base64/Internal.hs:36)
+    poke8 (Data/ByteString/Base64/Internal.hs:39)
+    peek8_32 (Data/ByteString/Base64/Internal.hs:42)
+    reChunkIn (Data/ByteString/Base64/Internal.hs:266)
+ 100% (  5 /  5) in 'Data.ByteString.Base64.URL'
+ 100% (  4 /  4) in 'Data.ByteString.Base64.URL.Lazy'
+ 100% (  5 /  5) in 'Data.ByteString.Base64'
+ 100% (  4 /  4) in 'Data.ByteString.Base64.Lazy'
+Documentation created:
+dist/dist-sandbox-4b96eff2/doc/html/base64-bytestring/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-base64-bytestring-1.0.0543436550290145159.1
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/base64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj
+Registering base64-bytestring-1.0.0.1...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27052/base64-bytestring-1.0.0.1'

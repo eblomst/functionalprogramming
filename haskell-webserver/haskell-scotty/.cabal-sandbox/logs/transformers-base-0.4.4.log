@@ -1,0 +1,36 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27053/transformers-base-0.4.4'
+Configuring transformers-base-0.4.4...
+Building transformers-base-0.4.4...
+Preprocessing library transformers-base-0.4.4...
+[1 of 1] Compiling Control.Monad.Base ( src/Control/Monad/Base.hs, dist/dist-sandbox-4b96eff2/build/Control/Monad/Base.o )
+
+src/Control/Monad/Base.hs:22:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[1 of 1] Compiling Control.Monad.Base ( src/Control/Monad/Base.hs, dist/dist-sandbox-4b96eff2/build/Control/Monad/Base.p_o )
+
+src/Control/Monad/Base.hs:22:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+Running Haddock for transformers-base-0.4.4...
+Preprocessing library transformers-base-0.4.4...
+
+src/Control/Monad/Base.hs:22:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+Haddock coverage:
+  33% (  1 /  3) in 'Control.Monad.Base'
+  Missing documentation for:
+    Module header
+    MonadBase (src/Control/Monad/Base.hs:50)
+Documentation created:
+dist/dist-sandbox-4b96eff2/doc/html/transformers-base/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-transformers-base-0.42121578553552265483.4
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/transformers-base-0.4.4-DPTfYkTApgo2fdoO6WqXzc
+Registering transformers-base-0.4.4...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27053/transformers-base-0.4.4'

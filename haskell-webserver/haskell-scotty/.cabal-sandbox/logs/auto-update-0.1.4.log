@@ -1,0 +1,29 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27049/auto-update-0.1.4'
+Configuring auto-update-0.1.4...
+Building auto-update-0.1.4...
+Preprocessing library auto-update-0.1.4...
+[1 of 4] Compiling Control.Debounce ( Control/Debounce.hs, dist/dist-sandbox-4b96eff2/build/Control/Debounce.o )
+[2 of 4] Compiling Control.AutoUpdate.Util ( Control/AutoUpdate/Util.hs, dist/dist-sandbox-4b96eff2/build/Control/AutoUpdate/Util.o )
+[3 of 4] Compiling Control.Reaper   ( Control/Reaper.hs, dist/dist-sandbox-4b96eff2/build/Control/Reaper.o )
+[4 of 4] Compiling Control.AutoUpdate ( Control/AutoUpdate.hs, dist/dist-sandbox-4b96eff2/build/Control/AutoUpdate.o )
+[1 of 4] Compiling Control.Debounce ( Control/Debounce.hs, dist/dist-sandbox-4b96eff2/build/Control/Debounce.p_o )
+[2 of 4] Compiling Control.AutoUpdate.Util ( Control/AutoUpdate/Util.hs, dist/dist-sandbox-4b96eff2/build/Control/AutoUpdate/Util.p_o )
+[3 of 4] Compiling Control.Reaper   ( Control/Reaper.hs, dist/dist-sandbox-4b96eff2/build/Control/Reaper.p_o )
+[4 of 4] Compiling Control.AutoUpdate ( Control/AutoUpdate.hs, dist/dist-sandbox-4b96eff2/build/Control/AutoUpdate.p_o )
+Running Haddock for auto-update-0.1.4...
+Preprocessing library auto-update-0.1.4...
+Haddock coverage:
+ 100% (  9 /  9) in 'Control.Debounce'
+  50% (  1 /  2) in 'Control.AutoUpdate.Util'
+  Missing documentation for:
+    Module header
+ 100% ( 18 / 18) in 'Control.Reaper'
+ 100% ( 11 / 11) in 'Control.AutoUpdate'
+Documentation created:
+dist/dist-sandbox-4b96eff2/doc/html/auto-update/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-auto-update-0.12817252261901915394.4
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/auto-update-0.1.4-EmUvNdmhEju51bHrtaEMpz
+Registering auto-update-0.1.4...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27049/auto-update-0.1.4'

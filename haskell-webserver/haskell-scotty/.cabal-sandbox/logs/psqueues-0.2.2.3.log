@@ -1,0 +1,148 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27050/psqueues-0.2.2.3'
+Configuring psqueues-0.2.2.3...
+Building psqueues-0.2.2.3...
+Preprocessing library psqueues-0.2.2.3...
+[1 of 7] Compiling Data.OrdPSQ.Internal ( src/Data/OrdPSQ/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/OrdPSQ/Internal.o )
+
+src/Data/OrdPSQ/Internal.hs:6:14: warning: [-Wtrustworthy-safe]
+    ‘Data.OrdPSQ.Internal’ is marked as Trustworthy but has been inferred as safe!
+
+src/Data/OrdPSQ/Internal.hs:75:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[2 of 7] Compiling Data.OrdPSQ      ( src/Data/OrdPSQ.hs, dist/dist-sandbox-4b96eff2/build/Data/OrdPSQ.o )
+
+src/Data/OrdPSQ.hs:15:14: warning: [-Wtrustworthy-safe]
+    ‘Data.OrdPSQ’ is marked as Trustworthy but has been inferred as safe!
+[3 of 7] Compiling Data.BitUtil     ( src/Data/BitUtil.hs, dist/dist-sandbox-4b96eff2/build/Data/BitUtil.o )
+[4 of 7] Compiling Data.IntPSQ.Internal ( src/Data/IntPSQ/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/IntPSQ/Internal.o )
+
+src/Data/IntPSQ/Internal.hs:69:1: warning: [-Wunused-imports]
+    The import of ‘foldr’ from module ‘Data.Foldable’ is redundant
+
+src/Data/IntPSQ/Internal.hs:79:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[5 of 7] Compiling Data.HashPSQ.Internal ( src/Data/HashPSQ/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/HashPSQ/Internal.o )
+
+src/Data/HashPSQ/Internal.hs:57:1: warning: [-Wunused-imports]
+    The import of ‘foldr’ from module ‘Data.Foldable’ is redundant
+
+src/Data/HashPSQ/Internal.hs:62:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[6 of 7] Compiling Data.HashPSQ     ( src/Data/HashPSQ.hs, dist/dist-sandbox-4b96eff2/build/Data/HashPSQ.o )
+[7 of 7] Compiling Data.IntPSQ      ( src/Data/IntPSQ.hs, dist/dist-sandbox-4b96eff2/build/Data/IntPSQ.o )
+[1 of 7] Compiling Data.OrdPSQ.Internal ( src/Data/OrdPSQ/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/OrdPSQ/Internal.p_o )
+
+src/Data/OrdPSQ/Internal.hs:6:14: warning: [-Wtrustworthy-safe]
+    ‘Data.OrdPSQ.Internal’ is marked as Trustworthy but has been inferred as safe!
+
+src/Data/OrdPSQ/Internal.hs:75:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[2 of 7] Compiling Data.OrdPSQ      ( src/Data/OrdPSQ.hs, dist/dist-sandbox-4b96eff2/build/Data/OrdPSQ.p_o )
+
+src/Data/OrdPSQ.hs:15:14: warning: [-Wtrustworthy-safe]
+    ‘Data.OrdPSQ’ is marked as Trustworthy but has been inferred as safe!
+[3 of 7] Compiling Data.BitUtil     ( src/Data/BitUtil.hs, dist/dist-sandbox-4b96eff2/build/Data/BitUtil.p_o )
+[4 of 7] Compiling Data.IntPSQ.Internal ( src/Data/IntPSQ/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/IntPSQ/Internal.p_o )
+
+src/Data/IntPSQ/Internal.hs:69:1: warning: [-Wunused-imports]
+    The import of ‘foldr’ from module ‘Data.Foldable’ is redundant
+
+src/Data/IntPSQ/Internal.hs:79:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[5 of 7] Compiling Data.HashPSQ.Internal ( src/Data/HashPSQ/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/HashPSQ/Internal.p_o )
+
+src/Data/HashPSQ/Internal.hs:57:1: warning: [-Wunused-imports]
+    The import of ‘foldr’ from module ‘Data.Foldable’ is redundant
+
+src/Data/HashPSQ/Internal.hs:62:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[6 of 7] Compiling Data.HashPSQ     ( src/Data/HashPSQ.hs, dist/dist-sandbox-4b96eff2/build/Data/HashPSQ.p_o )
+[7 of 7] Compiling Data.IntPSQ      ( src/Data/IntPSQ.hs, dist/dist-sandbox-4b96eff2/build/Data/IntPSQ.p_o )
+Running Haddock for psqueues-0.2.2.3...
+Preprocessing library psqueues-0.2.2.3...
+
+src/Data/OrdPSQ/Internal.hs:6:14: warning: [-Wtrustworthy-safe]
+    ‘Data.OrdPSQ.Internal’ is marked as Trustworthy but has been inferred as safe!
+
+src/Data/OrdPSQ/Internal.hs:75:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+
+src/Data/OrdPSQ.hs:15:14: warning: [-Wtrustworthy-safe]
+    ‘Data.OrdPSQ’ is marked as Trustworthy but has been inferred as safe!
+
+src/Data/IntPSQ/Internal.hs:69:1: warning: [-Wunused-imports]
+    The import of ‘foldr’ from module ‘Data.Foldable’ is redundant
+
+src/Data/IntPSQ/Internal.hs:79:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+
+src/Data/HashPSQ/Internal.hs:57:1: warning: [-Wunused-imports]
+    The import of ‘foldr’ from module ‘Data.Foldable’ is redundant
+
+src/Data/HashPSQ/Internal.hs:62:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+Haddock coverage:
+  71% ( 36 / 51) in 'Data.OrdPSQ.Internal'
+  Missing documentation for:
+    Module header
+    LTree (src/Data/OrdPSQ/Internal.hs:111)
+    TourView (src/Data/OrdPSQ/Internal.hs:397)
+    tourView (src/Data/OrdPSQ/Internal.hs:402)
+    left (src/Data/OrdPSQ/Internal.hs:442)
+    right (src/Data/OrdPSQ/Internal.hs:442)
+    maxKey (src/Data/OrdPSQ/Internal.hs:452)
+    lsingleLeft (src/Data/OrdPSQ/Internal.hs:503)
+    rsingleLeft (src/Data/OrdPSQ/Internal.hs:515)
+    lsingleRight (src/Data/OrdPSQ/Internal.hs:522)
+    rsingleRight (src/Data/OrdPSQ/Internal.hs:529)
+    ldoubleLeft (src/Data/OrdPSQ/Internal.hs:541)
+    rdoubleLeft (src/Data/OrdPSQ/Internal.hs:559)
+    ldoubleRight (src/Data/OrdPSQ/Internal.hs:550)
+    rdoubleRight (src/Data/OrdPSQ/Internal.hs:568)
+ 100% ( 33 / 33) in 'Data.OrdPSQ'
+ 100% (  2 /  2) in 'Data.BitUtil'
+  80% ( 37 / 46) in 'Data.IntPSQ.Internal'
+  Missing documentation for:
+    Module header
+    Nat (src/Data/IntPSQ/Internal.hs:97)
+    Key (src/Data/IntPSQ/Internal.hs:99)
+    unsafeInsertIncreasePriorityView (src/Data/IntPSQ/Internal.hs:511)
+    unsafeInsertWithIncreasePriorityView (src/Data/IntPSQ/Internal.hs:548)
+    hasBadNils (src/Data/IntPSQ/Internal.hs:640)
+    hasDuplicateKeys (src/Data/IntPSQ/Internal.hs:647)
+    hasMinHeapProperty (src/Data/IntPSQ/Internal.hs:658)
+    validMask (src/Data/IntPSQ/Internal.hs:672)
+  87% ( 33 / 38) in 'Data.HashPSQ.Internal'
+  Missing documentation for:
+    Module header
+    Bucket (src/Data/HashPSQ/Internal.hs:71)
+    unsafeLookupIncreasePriority (src/Data/HashPSQ/Internal.hs:373)
+    unsafeInsertIncreasePriority (src/Data/HashPSQ/Internal.hs:394)
+    unsafeInsertIncreasePriorityView (src/Data/HashPSQ/Internal.hs:409)
+ 100% ( 32 / 32) in 'Data.HashPSQ'
+ 100% ( 32 / 32) in 'Data.IntPSQ'
+Documentation created: dist/dist-sandbox-4b96eff2/doc/html/psqueues/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-psqueues-0.2.214938699401240764503.3
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/psqueues-0.2.2.3-KW7LdAPslgr1pmATuIskFG
+Registering psqueues-0.2.2.3...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27050/psqueues-0.2.2.3'

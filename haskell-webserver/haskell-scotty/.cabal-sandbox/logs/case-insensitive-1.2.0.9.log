@@ -1,0 +1,26 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27048/case-insensitive-1.2.0.9'
+Configuring case-insensitive-1.2.0.9...
+Building case-insensitive-1.2.0.9...
+Preprocessing library case-insensitive-1.2.0.9...
+[1 of 3] Compiling Data.CaseInsensitive.Internal ( Data/CaseInsensitive/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/CaseInsensitive/Internal.o )
+[2 of 3] Compiling Data.CaseInsensitive.Unsafe ( Data/CaseInsensitive/Unsafe.hs, dist/dist-sandbox-4b96eff2/build/Data/CaseInsensitive/Unsafe.o )
+[3 of 3] Compiling Data.CaseInsensitive ( Data/CaseInsensitive.hs, dist/dist-sandbox-4b96eff2/build/Data/CaseInsensitive.o )
+[1 of 3] Compiling Data.CaseInsensitive.Internal ( Data/CaseInsensitive/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/CaseInsensitive/Internal.p_o )
+[2 of 3] Compiling Data.CaseInsensitive.Unsafe ( Data/CaseInsensitive/Unsafe.hs, dist/dist-sandbox-4b96eff2/build/Data/CaseInsensitive/Unsafe.p_o )
+[3 of 3] Compiling Data.CaseInsensitive ( Data/CaseInsensitive.hs, dist/dist-sandbox-4b96eff2/build/Data/CaseInsensitive.p_o )
+Running Haddock for case-insensitive-1.2.0.9...
+Preprocessing library case-insensitive-1.2.0.9...
+Haddock coverage:
+ 100% (  8 /  8) in 'Data.CaseInsensitive.Internal'
+ 100% (  2 /  2) in 'Data.CaseInsensitive.Unsafe'
+ 100% (  7 /  7) in 'Data.CaseInsensitive'
+Warning: Data.CaseInsensitive: could not find link destinations for:
+    foldCaseList
+Documentation created:
+dist/dist-sandbox-4b96eff2/doc/html/case-insensitive/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-case-insensitive-1.2.01473392040666082723.9
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/case-insensitive-1.2.0.9-6oYmTYBFX0D7GUKDu3Kl9G
+Registering case-insensitive-1.2.0.9...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27048/case-insensitive-1.2.0.9'

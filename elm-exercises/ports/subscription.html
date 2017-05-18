@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<body>
+<div id="main"></div>
+<label>
+  <input type="radio" name="poison" value="Arsenic" onclick="setPoison(value)"/>
+  Arsenic
+</label>
+<label>
+  <input type="radio" name="poison" value="Uranium" onclick="setPoison(value)"/>
+  Uranium
+</label>
+<label>
+  <input type="radio" name="poison" value="Goldman Sachs" onclick="setPoison(value)"/>
+  Goldman Sachs
+</label>
+<script type="text/javascript">
+  var node = document.getElementById("main");
+  var poisonContainer = document.getElementById("message");
+  function setPoison(poison) {
+    // Do something with the poison!
+  }
+</script>
+</body>
+</html>

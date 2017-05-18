@@ -1,0 +1,20 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27051/byteorder-1.0.4'
+Configuring byteorder-1.0.4...
+Building byteorder-1.0.4...
+Preprocessing library byteorder-1.0.4...
+[1 of 1] Compiling System.ByteOrder ( System/ByteOrder.hs, dist/dist-sandbox-4b96eff2/build/System/ByteOrder.o )
+[1 of 1] Compiling System.ByteOrder ( System/ByteOrder.hs, dist/dist-sandbox-4b96eff2/build/System/ByteOrder.p_o )
+Running Haddock for byteorder-1.0.4...
+Preprocessing library byteorder-1.0.4...
+Haddock coverage:
+  67% (  2 /  3) in 'System.ByteOrder'
+  Missing documentation for:
+    Module header
+Documentation created:
+dist/dist-sandbox-4b96eff2/doc/html/byteorder/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-byteorder-1.0197941363348318738.4
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/byteorder-1.0.4-9NlNHkBVdo7F1prFVKrkcH
+Registering byteorder-1.0.4...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27051/byteorder-1.0.4'

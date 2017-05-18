@@ -1,0 +1,30 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27045/regex-compat-0.95.1'
+Configuring regex-compat-0.95.1...
+Building regex-compat-0.95.1...
+Preprocessing library regex-compat-0.95.1...
+[1 of 1] Compiling Text.Regex       ( Text/Regex.hs, dist/dist-sandbox-4b96eff2/build/Text/Regex.o )
+
+Text/Regex.hs:50:1: warning: [-Wtabs]
+    Tab character found here, and in 24 further locations.
+    Please use spaces instead.
+[1 of 1] Compiling Text.Regex       ( Text/Regex.hs, dist/dist-sandbox-4b96eff2/build/Text/Regex.p_o )
+
+Text/Regex.hs:50:1: warning: [-Wtabs]
+    Tab character found here, and in 24 further locations.
+    Please use spaces instead.
+Running Haddock for regex-compat-0.95.1...
+Preprocessing library regex-compat-0.95.1...
+
+Text/Regex.hs:63:12: warning: [-Wtabs]
+    Tab character found here, and in six further locations.
+    Please use spaces instead.
+Haddock coverage:
+ 100% (  9 /  9) in 'Text.Regex'
+Documentation created:
+dist/dist-sandbox-4b96eff2/doc/html/regex-compat/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-regex-compat-0.956673066331262976197.1
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/regex-compat-0.95.1-9zL84REirJ8IqzNN3W039k
+Registering regex-compat-0.95.1...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27045/regex-compat-0.95.1'

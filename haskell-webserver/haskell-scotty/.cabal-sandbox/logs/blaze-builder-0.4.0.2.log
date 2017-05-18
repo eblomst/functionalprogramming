@@ -1,0 +1,53 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27047/blaze-builder-0.4.0.2'
+Configuring blaze-builder-0.4.0.2...
+Building blaze-builder-0.4.0.2...
+Preprocessing library blaze-builder-0.4.0.2...
+[ 1 of 10] Compiling Blaze.ByteString.Builder.Internal.Write ( Blaze/ByteString/Builder/Internal/Write.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Internal/Write.o )
+[ 2 of 10] Compiling Blaze.ByteString.Builder.Compat.Write ( Blaze/ByteString/Builder/Compat/Write.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Compat/Write.o )
+[ 3 of 10] Compiling Blaze.ByteString.Builder.Int ( Blaze/ByteString/Builder/Int.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Int.o )
+[ 4 of 10] Compiling Blaze.ByteString.Builder.Word ( Blaze/ByteString/Builder/Word.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Word.o )
+[ 5 of 10] Compiling Blaze.ByteString.Builder.Char8 ( Blaze/ByteString/Builder/Char8.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Char8.o )
+[ 6 of 10] Compiling Blaze.ByteString.Builder.Char.Utf8 ( Blaze/ByteString/Builder/Char/Utf8.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Char/Utf8.o )
+[ 7 of 10] Compiling Blaze.ByteString.Builder.Html.Utf8 ( Blaze/ByteString/Builder/Html/Utf8.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Html/Utf8.o )
+[ 8 of 10] Compiling Blaze.ByteString.Builder.ByteString ( Blaze/ByteString/Builder/ByteString.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/ByteString.o )
+[ 9 of 10] Compiling Blaze.ByteString.Builder.HTTP ( Blaze/ByteString/Builder/HTTP.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/HTTP.o )
+[10 of 10] Compiling Blaze.ByteString.Builder ( Blaze/ByteString/Builder.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder.o )
+[ 1 of 10] Compiling Blaze.ByteString.Builder.Internal.Write ( Blaze/ByteString/Builder/Internal/Write.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Internal/Write.p_o )
+[ 2 of 10] Compiling Blaze.ByteString.Builder.Compat.Write ( Blaze/ByteString/Builder/Compat/Write.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Compat/Write.p_o )
+[ 3 of 10] Compiling Blaze.ByteString.Builder.Int ( Blaze/ByteString/Builder/Int.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Int.p_o )
+[ 4 of 10] Compiling Blaze.ByteString.Builder.Word ( Blaze/ByteString/Builder/Word.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Word.p_o )
+[ 5 of 10] Compiling Blaze.ByteString.Builder.Char8 ( Blaze/ByteString/Builder/Char8.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Char8.p_o )
+[ 6 of 10] Compiling Blaze.ByteString.Builder.Char.Utf8 ( Blaze/ByteString/Builder/Char/Utf8.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Char/Utf8.p_o )
+[ 7 of 10] Compiling Blaze.ByteString.Builder.Html.Utf8 ( Blaze/ByteString/Builder/Html/Utf8.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/Html/Utf8.p_o )
+[ 8 of 10] Compiling Blaze.ByteString.Builder.ByteString ( Blaze/ByteString/Builder/ByteString.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/ByteString.p_o )
+[ 9 of 10] Compiling Blaze.ByteString.Builder.HTTP ( Blaze/ByteString/Builder/HTTP.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder/HTTP.p_o )
+[10 of 10] Compiling Blaze.ByteString.Builder ( Blaze/ByteString/Builder.hs, dist/dist-sandbox-4b96eff2/build/Blaze/ByteString/Builder.p_o )
+Running Haddock for blaze-builder-0.4.0.2...
+Preprocessing library blaze-builder-0.4.0.2...
+Haddock coverage:
+  96% ( 24 / 25) in 'Blaze.ByteString.Builder.Internal.Write'
+  Missing documentation for:
+    fromWriteSingleton (Blaze/ByteString/Builder/Internal/Write.hs:229)
+  50% (  2 /  4) in 'Blaze.ByteString.Builder.Compat.Write'
+  Missing documentation for:
+    writePrimFixed (Blaze/ByteString/Builder/Compat/Write.hs:24)
+    writePrimBounded (Blaze/ByteString/Builder/Compat/Write.hs:28)
+ 100% ( 43 / 43) in 'Blaze.ByteString.Builder.Int'
+ 100% ( 43 / 43) in 'Blaze.ByteString.Builder.Word'
+ 100% (  9 /  9) in 'Blaze.ByteString.Builder.Char8'
+ 100% (  9 /  9) in 'Blaze.ByteString.Builder.Char.Utf8'
+ 100% ( 10 / 10) in 'Blaze.ByteString.Builder.Html.Utf8'
+ 100% ( 12 / 12) in 'Blaze.ByteString.Builder.ByteString'
+ 100% (  4 /  4) in 'Blaze.ByteString.Builder.HTTP'
+  92% ( 22 / 24) in 'Blaze.ByteString.Builder'
+  Missing documentation for:
+    toByteStringIOWith (Blaze/ByteString/Builder.hs:175)
+    fromWriteSingleton (Blaze/ByteString/Builder/Internal/Write.hs:229)
+Documentation created:
+dist/dist-sandbox-4b96eff2/doc/html/blaze-builder/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-blaze-builder-0.4.0178077656332106102.2
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/blaze-builder-0.4.0.2-CHCuxDJaC37LXaq0Zrx3Kf
+Registering blaze-builder-0.4.0.2...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27047/blaze-builder-0.4.0.2'

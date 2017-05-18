@@ -1,0 +1,82 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27045/vault-0.3.0.7'
+Configuring vault-0.3.0.7...
+Building vault-0.3.0.7...
+Preprocessing library vault-0.3.0.7...
+[1 of 5] Compiling Data.Unique.Really ( src/Data/Unique/Really.hs, dist/dist-sandbox-4b96eff2/build/Data/Unique/Really.o )
+
+src/Data/Unique/Really.hs:6:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[2 of 5] Compiling Data.Vault.ST.Lazy ( src/Data/Vault/ST/Lazy.hs, dist/dist-sandbox-4b96eff2/build/Data/Vault/ST/Lazy.o )
+
+src/Data/Vault/ST/ST.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[3 of 5] Compiling Data.Vault.Lazy  ( src/Data/Vault/Lazy.hs, dist/dist-sandbox-4b96eff2/build/Data/Vault/Lazy.o )
+[4 of 5] Compiling Data.Vault.ST.Strict ( src/Data/Vault/ST/Strict.hs, dist/dist-sandbox-4b96eff2/build/Data/Vault/ST/Strict.o )
+
+src/Data/Vault/ST/ST.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[5 of 5] Compiling Data.Vault.Strict ( src/Data/Vault/Strict.hs, dist/dist-sandbox-4b96eff2/build/Data/Vault/Strict.o )
+[1 of 5] Compiling Data.Unique.Really ( src/Data/Unique/Really.hs, dist/dist-sandbox-4b96eff2/build/Data/Unique/Really.p_o )
+
+src/Data/Unique/Really.hs:6:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[2 of 5] Compiling Data.Vault.ST.Lazy ( src/Data/Vault/ST/Lazy.hs, dist/dist-sandbox-4b96eff2/build/Data/Vault/ST/Lazy.p_o )
+
+src/Data/Vault/ST/ST.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[3 of 5] Compiling Data.Vault.Lazy  ( src/Data/Vault/Lazy.hs, dist/dist-sandbox-4b96eff2/build/Data/Vault/Lazy.p_o )
+[4 of 5] Compiling Data.Vault.ST.Strict ( src/Data/Vault/ST/Strict.hs, dist/dist-sandbox-4b96eff2/build/Data/Vault/ST/Strict.p_o )
+
+src/Data/Vault/ST/ST.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[5 of 5] Compiling Data.Vault.Strict ( src/Data/Vault/Strict.hs, dist/dist-sandbox-4b96eff2/build/Data/Vault/Strict.p_o )
+Running Haddock for vault-0.3.0.7...
+Preprocessing library vault-0.3.0.7...
+
+src/Data/Unique/Really.hs:6:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Vault/ST/ST.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Vault/ST/ST.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+Haddock coverage:
+ 100% (  4 /  4) in 'Data.Unique.Really'
+  80% ( 12 / 15) in 'Data.Vault.ST.Lazy'
+  Missing documentation for:
+    Vault (src/Data/Vault/ST/backends/GHC.hs:18)
+    Key (src/Data/Vault/ST/backends/GHC.hs:19)
+    Locker (src/Data/Vault/ST/backends/GHC.hs:40)
+ 100% ( 15 / 15) in 'Data.Vault.Lazy'
+  80% ( 12 / 15) in 'Data.Vault.ST.Strict'
+  Missing documentation for:
+    Vault (src/Data/Vault/ST/backends/GHC.hs:18)
+    Key (src/Data/Vault/ST/backends/GHC.hs:19)
+    Locker (src/Data/Vault/ST/backends/GHC.hs:40)
+ 100% ( 15 / 15) in 'Data.Vault.Strict'
+Documentation created: dist/dist-sandbox-4b96eff2/doc/html/vault/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-vault-0.3.02090265324404319195.7
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/vault-0.3.0.7-CtCw1pL9j0h9DzrC8WOZpS
+Registering vault-0.3.0.7...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27045/vault-0.3.0.7'

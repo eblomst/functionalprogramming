@@ -1,0 +1,69 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27056/easy-file-0.2.1'
+Configuring easy-file-0.2.1...
+Building easy-file-0.2.1...
+Preprocessing library easy-file-0.2.1...
+[1 of 4] Compiling System.EasyFile.Missing ( System/EasyFile/Missing.hs, dist/dist-sandbox-4b96eff2/build/System/EasyFile/Missing.o )
+
+System/EasyFile/Missing.hs:7:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[2 of 4] Compiling System.EasyFile.FilePath ( System/EasyFile/FilePath.hs, dist/dist-sandbox-4b96eff2/build/System/EasyFile/FilePath.o )
+[3 of 4] Compiling System.EasyFile.Directory ( System/EasyFile/Directory.hs, dist/dist-sandbox-4b96eff2/build/System/EasyFile/Directory.o )
+
+System/EasyFile/Directory.hs:37:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[4 of 4] Compiling System.EasyFile  ( System/EasyFile.hs, dist/dist-sandbox-4b96eff2/build/System/EasyFile.o )
+[1 of 4] Compiling System.EasyFile.Missing ( System/EasyFile/Missing.hs, dist/dist-sandbox-4b96eff2/build/System/EasyFile/Missing.p_o )
+
+System/EasyFile/Missing.hs:7:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[2 of 4] Compiling System.EasyFile.FilePath ( System/EasyFile/FilePath.hs, dist/dist-sandbox-4b96eff2/build/System/EasyFile/FilePath.p_o )
+[3 of 4] Compiling System.EasyFile.Directory ( System/EasyFile/Directory.hs, dist/dist-sandbox-4b96eff2/build/System/EasyFile/Directory.p_o )
+
+System/EasyFile/Directory.hs:37:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[4 of 4] Compiling System.EasyFile  ( System/EasyFile.hs, dist/dist-sandbox-4b96eff2/build/System/EasyFile.p_o )
+Running Haddock for easy-file-0.2.1...
+Preprocessing library easy-file-0.2.1...
+
+System/EasyFile/Missing.hs:7:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+System/EasyFile/Directory.hs:37:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+Haddock coverage:
+  80% (  8 / 10) in 'System.EasyFile.Missing'
+  Missing documentation for:
+    Module header
+    epochTimeToUTCTime (System/EasyFile/Missing.hs:151)
+  98% ( 49 / 50) in 'System.EasyFile.FilePath'
+  Missing documentation for:
+    Module header
+  80% (  8 / 10) in 'System.EasyFile.Directory'
+  Missing documentation for:
+    Module header
+    fixPath (System/EasyFile/Directory.hs:186)
+  99% ( 88 / 89) in 'System.EasyFile'
+  Missing documentation for:
+    Permissions
+Warning: System.EasyFile: could not find link destinations for:
+    InappropriateType UnsupportedOperation
+Documentation created:
+dist/dist-sandbox-4b96eff2/doc/html/easy-file/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-easy-file-0.214594134961951894885.1
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/easy-file-0.2.1-rguMBNaECxLikt4CCDx0D
+Registering easy-file-0.2.1...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27056/easy-file-0.2.1'

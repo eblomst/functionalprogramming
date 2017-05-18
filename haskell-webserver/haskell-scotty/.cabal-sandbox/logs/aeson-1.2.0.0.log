@@ -1,0 +1,281 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27046/aeson-1.2.0.0'
+Configuring aeson-1.2.0.0...
+Building aeson-1.2.0.0...
+Preprocessing library aeson-1.2.0.0...
+[ 1 of 23] Compiling Data.Attoparsec.Time.Internal ( attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/Attoparsec/Time/Internal.o )
+[ 2 of 23] Compiling Data.Attoparsec.Time ( attoparsec-iso8601/Data/Attoparsec/Time.hs, dist/dist-sandbox-4b96eff2/build/Data/Attoparsec/Time.o )
+[ 3 of 23] Compiling Data.Aeson.Types.Internal ( Data/Aeson/Types/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Types/Internal.o )
+[ 4 of 23] Compiling Data.Aeson.Types.Generic ( Data/Aeson/Types/Generic.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Types/Generic.o )
+[ 5 of 23] Compiling Data.Aeson.Parser.UnescapePure ( pure/Data/Aeson/Parser/UnescapePure.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Parser/UnescapePure.o )
+[ 6 of 23] Compiling Data.Aeson.Parser.Unescape ( Data/Aeson/Parser/Unescape.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Parser/Unescape.o )
+[ 7 of 23] Compiling Data.Aeson.Parser.Time ( Data/Aeson/Parser/Time.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Parser/Time.o )
+[ 8 of 23] Compiling Data.Aeson.Parser.Internal ( Data/Aeson/Parser/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Parser/Internal.o )
+[ 9 of 23] Compiling Data.Aeson.Parser ( Data/Aeson/Parser.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Parser.o )
+[10 of 23] Compiling Data.Aeson.Internal.Time ( Data/Aeson/Internal/Time.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Internal/Time.o )
+[11 of 23] Compiling Data.Aeson.Internal.Functions ( Data/Aeson/Internal/Functions.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Internal/Functions.o )
+[12 of 23] Compiling Data.Aeson.Types.FromJSON ( Data/Aeson/Types/FromJSON.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Types/FromJSON.o )
+
+Data/Aeson/Types/FromJSON.hs:470:3: warning: [-Winline-rule-shadowing]
+    Rule "FromJSONKeyCoerce: fmap id" may never fire
+      because ‘id’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘id’
+[13 of 23] Compiling Data.Aeson.Internal ( Data/Aeson/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Internal.o )
+[14 of 23] Compiling Data.Aeson.Encoding.Builder ( Data/Aeson/Encoding/Builder.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Encoding/Builder.o )
+[15 of 23] Compiling Data.Aeson.Encoding.Internal ( Data/Aeson/Encoding/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Encoding/Internal.o )
+[16 of 23] Compiling Data.Aeson.Encoding ( Data/Aeson/Encoding.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Encoding.o )
+[17 of 23] Compiling Data.Aeson.Types.ToJSON ( Data/Aeson/Types/ToJSON.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Types/ToJSON.o )
+[18 of 23] Compiling Data.Aeson.Types.Class ( Data/Aeson/Types/Class.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Types/Class.o )
+[19 of 23] Compiling Data.Aeson.Types ( Data/Aeson/Types.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Types.o )
+[20 of 23] Compiling Data.Aeson.Text  ( Data/Aeson/Text.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Text.o )
+[21 of 23] Compiling Data.Aeson       ( Data/Aeson.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson.o )
+[22 of 23] Compiling Data.Aeson.Encode ( Data/Aeson/Encode.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Encode.o )
+[23 of 23] Compiling Data.Aeson.TH    ( Data/Aeson/TH.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/TH.o )
+[ 1 of 23] Compiling Data.Attoparsec.Time.Internal ( attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/Attoparsec/Time/Internal.p_o )
+[ 2 of 23] Compiling Data.Attoparsec.Time ( attoparsec-iso8601/Data/Attoparsec/Time.hs, dist/dist-sandbox-4b96eff2/build/Data/Attoparsec/Time.p_o )
+[ 3 of 23] Compiling Data.Aeson.Types.Internal ( Data/Aeson/Types/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Types/Internal.p_o )
+[ 4 of 23] Compiling Data.Aeson.Types.Generic ( Data/Aeson/Types/Generic.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Types/Generic.p_o )
+[ 5 of 23] Compiling Data.Aeson.Parser.UnescapePure ( pure/Data/Aeson/Parser/UnescapePure.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Parser/UnescapePure.p_o )
+[ 6 of 23] Compiling Data.Aeson.Parser.Unescape ( Data/Aeson/Parser/Unescape.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Parser/Unescape.p_o )
+[ 7 of 23] Compiling Data.Aeson.Parser.Time ( Data/Aeson/Parser/Time.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Parser/Time.p_o )
+[ 8 of 23] Compiling Data.Aeson.Parser.Internal ( Data/Aeson/Parser/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Parser/Internal.p_o )
+[ 9 of 23] Compiling Data.Aeson.Parser ( Data/Aeson/Parser.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Parser.p_o )
+[10 of 23] Compiling Data.Aeson.Internal.Time ( Data/Aeson/Internal/Time.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Internal/Time.p_o )
+[11 of 23] Compiling Data.Aeson.Internal.Functions ( Data/Aeson/Internal/Functions.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Internal/Functions.p_o )
+[12 of 23] Compiling Data.Aeson.Types.FromJSON ( Data/Aeson/Types/FromJSON.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Types/FromJSON.p_o )
+
+Data/Aeson/Types/FromJSON.hs:470:3: warning: [-Winline-rule-shadowing]
+    Rule "FromJSONKeyCoerce: fmap id" may never fire
+      because ‘id’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘id’
+[13 of 23] Compiling Data.Aeson.Internal ( Data/Aeson/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Internal.p_o )
+[14 of 23] Compiling Data.Aeson.Encoding.Builder ( Data/Aeson/Encoding/Builder.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Encoding/Builder.p_o )
+[15 of 23] Compiling Data.Aeson.Encoding.Internal ( Data/Aeson/Encoding/Internal.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Encoding/Internal.p_o )
+[16 of 23] Compiling Data.Aeson.Encoding ( Data/Aeson/Encoding.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Encoding.p_o )
+[17 of 23] Compiling Data.Aeson.Types.ToJSON ( Data/Aeson/Types/ToJSON.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Types/ToJSON.p_o )
+[18 of 23] Compiling Data.Aeson.Types.Class ( Data/Aeson/Types/Class.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Types/Class.p_o )
+[19 of 23] Compiling Data.Aeson.Types ( Data/Aeson/Types.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Types.p_o )
+[20 of 23] Compiling Data.Aeson.Text  ( Data/Aeson/Text.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Text.p_o )
+[21 of 23] Compiling Data.Aeson       ( Data/Aeson.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson.p_o )
+[22 of 23] Compiling Data.Aeson.Encode ( Data/Aeson/Encode.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/Encode.p_o )
+[23 of 23] Compiling Data.Aeson.TH    ( Data/Aeson/TH.hs, dist/dist-sandbox-4b96eff2/build/Data/Aeson/TH.p_o )
+Running Haddock for aeson-1.2.0.0...
+Preprocessing library aeson-1.2.0.0...
+Haddock coverage:
+  33% (  2 /  6) in 'Data.Attoparsec.Time.Internal'
+  Missing documentation for:
+    fromPico (attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:34)
+    toPico (attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:31)
+    diffTimeOfDay64 (attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:54)
+    toTimeOfDay64 (attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:60)
+ 100% (  7 /  7) in 'Data.Attoparsec.Time'
+  97% ( 33 / 34) in 'Data.Aeson.Types.Internal'
+  Missing documentation for:
+    JSONPath (Data/Aeson/Types/Internal.hs:114)
+  30% (  3 / 10) in 'Data.Aeson.Types.Generic'
+  Missing documentation for:
+    IsRecord (Data/Aeson/Types/Generic.hs:46)
+    AllNullary (Data/Aeson/Types/Generic.hs:68)
+    Tagged2 (Data/Aeson/Types/Generic.hs:82)
+    True (Data/Aeson/Types/Generic.hs:86)
+    False (Data/Aeson/Types/Generic.hs:87)
+    And (Data/Aeson/Types/Generic.hs:89)
+    ProductSize (Data/Aeson/Types/Generic.hs:106)
+   0% (  0 /  2) in 'Data.Aeson.Parser.UnescapePure'
+  Missing documentation for:
+    Module header
+    unescapeText (pure/Data/Aeson/Parser/UnescapePure.hs:275)
+   0% (  0 /  2) in 'Data.Aeson.Parser.Unescape'
+  Missing documentation for:
+    Module header
+    unescapeText (pure/Data/Aeson/Parser/UnescapePure.hs:275)
+  88% (  7 /  8) in 'Data.Aeson.Parser.Time'
+  Missing documentation for:
+    Module header
+  73% ( 11 / 15) in 'Data.Aeson.Parser.Internal'
+  Missing documentation for:
+    decodeWith (Data/Aeson/Parser/Internal.hs:236)
+    decodeStrictWith (Data/Aeson/Parser/Internal.hs:245)
+    eitherDecodeWith (Data/Aeson/Parser/Internal.hs:253)
+    eitherDecodeStrictWith (Data/Aeson/Parser/Internal.hs:263)
+  73% ( 11 / 15) in 'Data.Aeson.Parser'
+  Missing documentation for:
+    decodeWith (Data/Aeson/Parser/Internal.hs:236)
+    decodeStrictWith (Data/Aeson/Parser/Internal.hs:245)
+    eitherDecodeWith (Data/Aeson/Parser/Internal.hs:253)
+    eitherDecodeStrictWith (Data/Aeson/Parser/Internal.hs:263)
+  33% (  2 /  6) in 'Data.Aeson.Internal.Time'
+  Missing documentation for:
+    fromPico (attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:34)
+    toPico (attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:31)
+    diffTimeOfDay64 (attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:54)
+    toTimeOfDay64 (attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:60)
+ 100% (  4 /  4) in 'Data.Aeson.Internal.Functions'
+  96% ( 43 / 45) in 'Data.Aeson.Types.FromJSON'
+  Missing documentation for:
+    Module header
+    parseOptionalFieldWith (Data/Aeson/Types/FromJSON.hs:226)
+  88% (  7 /  8) in 'Data.Aeson.Internal'
+  Missing documentation for:
+    JSONPath (Data/Aeson/Types/Internal.hs:114)
+  48% ( 10 / 21) in 'Data.Aeson.Encoding.Builder'
+  Missing documentation for:
+    emptyArray_ (Data/Aeson/Encoding/Builder.hs:156)
+    emptyObject_ (Data/Aeson/Encoding/Builder.hs:159)
+    object (Data/Aeson/Encoding/Builder.hs:105)
+    day (Data/Aeson/Encoding/Builder.hs:188)
+    localTime (Data/Aeson/Encoding/Builder.hs:256)
+    utcTime (Data/Aeson/Encoding/Builder.hs:252)
+    timeOfDay (Data/Aeson/Encoding/Builder.hs:205)
+    zonedTime (Data/Aeson/Encoding/Builder.hs:260)
+    ascii2 (Data/Aeson/Encoding/Builder.hs:162)
+    ascii4 (Data/Aeson/Encoding/Builder.hs:166)
+    ascii5 (Data/Aeson/Encoding/Builder.hs:171)
+  22% ( 17 / 77) in 'Data.Aeson.Encoding.Internal'
+  Missing documentation for:
+    Module header
+    encodingToLazyByteString (Data/Aeson/Encoding/Internal.hs:94)
+    retagEncoding (Data/Aeson/Encoding/Internal.hs:98)
+    pair (Data/Aeson/Encoding/Internal.hs:126)
+    pairStr (Data/Aeson/Encoding/Internal.hs:130)
+    pair' (Data/Aeson/Encoding/Internal.hs:134)
+    nullEncoding (Data/Aeson/Encoding/Internal.hs:146)
+    emptyArray_ (Data/Aeson/Encoding/Internal.hs:149)
+    emptyObject_ (Data/Aeson/Encoding/Internal.hs:152)
+    wrapObject (Data/Aeson/Encoding/Internal.hs:158)
+    wrapArray (Data/Aeson/Encoding/Internal.hs:155)
+    null_ (Data/Aeson/Encoding/Internal.hs:161)
+    bool (Data/Aeson/Encoding/Internal.hs:164)
+    text (Data/Aeson/Encoding/Internal.hs:225)
+    lazyText (Data/Aeson/Encoding/Internal.hs:228)
+    string (Data/Aeson/Encoding/Internal.hs:233)
+    list (Data/Aeson/Encoding/Internal.hs:174)
+    empty (Data/Aeson/Encoding/Internal.hs:203)
+    >< (Data/Aeson/Encoding/Internal.hs:210)
+    econcat (Data/Aeson/Encoding/Internal.hs:206)
+    int8 (Data/Aeson/Encoding/Internal.hs:252)
+    int16 (Data/Aeson/Encoding/Internal.hs:255)
+    int32 (Data/Aeson/Encoding/Internal.hs:258)
+    int64 (Data/Aeson/Encoding/Internal.hs:261)
+    int (Data/Aeson/Encoding/Internal.hs:264)
+    word8 (Data/Aeson/Encoding/Internal.hs:267)
+    word16 (Data/Aeson/Encoding/Internal.hs:270)
+    word32 (Data/Aeson/Encoding/Internal.hs:273)
+    word64 (Data/Aeson/Encoding/Internal.hs:276)
+    word (Data/Aeson/Encoding/Internal.hs:279)
+    integer (Data/Aeson/Encoding/Internal.hs:282)
+    float (Data/Aeson/Encoding/Internal.hs:285)
+    double (Data/Aeson/Encoding/Internal.hs:288)
+    scientific (Data/Aeson/Encoding/Internal.hs:291)
+    int8Text (Data/Aeson/Encoding/Internal.hs:304)
+    int16Text (Data/Aeson/Encoding/Internal.hs:307)
+    int32Text (Data/Aeson/Encoding/Internal.hs:310)
+    int64Text (Data/Aeson/Encoding/Internal.hs:313)
+    intText (Data/Aeson/Encoding/Internal.hs:316)
+    word8Text (Data/Aeson/Encoding/Internal.hs:319)
+    word16Text (Data/Aeson/Encoding/Internal.hs:322)
+    word32Text (Data/Aeson/Encoding/Internal.hs:325)
+    word64Text (Data/Aeson/Encoding/Internal.hs:328)
+    wordText (Data/Aeson/Encoding/Internal.hs:331)
+    integerText (Data/Aeson/Encoding/Internal.hs:334)
+    floatText (Data/Aeson/Encoding/Internal.hs:337)
+    doubleText (Data/Aeson/Encoding/Internal.hs:340)
+    scientificText (Data/Aeson/Encoding/Internal.hs:343)
+    day (Data/Aeson/Encoding/Internal.hs:350)
+    localTime (Data/Aeson/Encoding/Internal.hs:353)
+    utcTime (Data/Aeson/Encoding/Internal.hs:356)
+    timeOfDay (Data/Aeson/Encoding/Internal.hs:359)
+    zonedTime (Data/Aeson/Encoding/Internal.hs:362)
+    value (Data/Aeson/Encoding/Internal.hs:369)
+    comma (Data/Aeson/Encoding/Internal.hs:240)
+    colon (Data/Aeson/Encoding/Internal.hs:240)
+    openBracket (Data/Aeson/Encoding/Internal.hs:240)
+    closeBracket (Data/Aeson/Encoding/Internal.hs:240)
+    openCurly (Data/Aeson/Encoding/Internal.hs:240)
+    closeCurly (Data/Aeson/Encoding/Internal.hs:240)
+  24% ( 15 / 62) in 'Data.Aeson.Encoding'
+  Missing documentation for:
+    encodingToLazyByteString (Data/Aeson/Encoding/Internal.hs:94)
+    pair (Data/Aeson/Encoding/Internal.hs:126)
+    pairStr (Data/Aeson/Encoding/Internal.hs:130)
+    pair' (Data/Aeson/Encoding/Internal.hs:134)
+    nullEncoding (Data/Aeson/Encoding/Internal.hs:146)
+    emptyArray_ (Data/Aeson/Encoding/Internal.hs:149)
+    emptyObject_ (Data/Aeson/Encoding/Internal.hs:152)
+    text (Data/Aeson/Encoding/Internal.hs:225)
+    lazyText (Data/Aeson/Encoding/Internal.hs:228)
+    string (Data/Aeson/Encoding/Internal.hs:233)
+    list (Data/Aeson/Encoding/Internal.hs:174)
+    null_ (Data/Aeson/Encoding/Internal.hs:161)
+    bool (Data/Aeson/Encoding/Internal.hs:164)
+    int8 (Data/Aeson/Encoding/Internal.hs:252)
+    int16 (Data/Aeson/Encoding/Internal.hs:255)
+    int32 (Data/Aeson/Encoding/Internal.hs:258)
+    int64 (Data/Aeson/Encoding/Internal.hs:261)
+    int (Data/Aeson/Encoding/Internal.hs:264)
+    word8 (Data/Aeson/Encoding/Internal.hs:267)
+    word16 (Data/Aeson/Encoding/Internal.hs:270)
+    word32 (Data/Aeson/Encoding/Internal.hs:273)
+    word64 (Data/Aeson/Encoding/Internal.hs:276)
+    word (Data/Aeson/Encoding/Internal.hs:279)
+    integer (Data/Aeson/Encoding/Internal.hs:282)
+    float (Data/Aeson/Encoding/Internal.hs:285)
+    double (Data/Aeson/Encoding/Internal.hs:288)
+    scientific (Data/Aeson/Encoding/Internal.hs:291)
+    int8Text (Data/Aeson/Encoding/Internal.hs:304)
+    int16Text (Data/Aeson/Encoding/Internal.hs:307)
+    int32Text (Data/Aeson/Encoding/Internal.hs:310)
+    int64Text (Data/Aeson/Encoding/Internal.hs:313)
+    intText (Data/Aeson/Encoding/Internal.hs:316)
+    word8Text (Data/Aeson/Encoding/Internal.hs:319)
+    word16Text (Data/Aeson/Encoding/Internal.hs:322)
+    word32Text (Data/Aeson/Encoding/Internal.hs:325)
+    word64Text (Data/Aeson/Encoding/Internal.hs:328)
+    wordText (Data/Aeson/Encoding/Internal.hs:331)
+    integerText (Data/Aeson/Encoding/Internal.hs:334)
+    floatText (Data/Aeson/Encoding/Internal.hs:337)
+    doubleText (Data/Aeson/Encoding/Internal.hs:340)
+    scientificText (Data/Aeson/Encoding/Internal.hs:343)
+    day (Data/Aeson/Encoding/Internal.hs:350)
+    localTime (Data/Aeson/Encoding/Internal.hs:353)
+    utcTime (Data/Aeson/Encoding/Internal.hs:356)
+    timeOfDay (Data/Aeson/Encoding/Internal.hs:359)
+    zonedTime (Data/Aeson/Encoding/Internal.hs:362)
+    value (Data/Aeson/Encoding/Internal.hs:369)
+  93% ( 26 / 28) in 'Data.Aeson.Types.ToJSON'
+  Missing documentation for:
+    Module header
+    ToJSONKeyFunction (Data/Aeson/Types/ToJSON.hs:458)
+  96% ( 64 / 67) in 'Data.Aeson.Types.Class'
+  Missing documentation for:
+    GToJSON (Data/Aeson/Types/Class.hs:103)
+    GToEncoding (Data/Aeson/Types/Class.hs:104)
+    ToJSONKeyFunction (Data/Aeson/Types/ToJSON.hs:458)
+  97% ( 88 / 91) in 'Data.Aeson.Types'
+  Missing documentation for:
+    ToJSONKeyFunction (Data/Aeson/Types/ToJSON.hs:458)
+    GToJSON (Data/Aeson/Types/Class.hs:103)
+    GToEncoding (Data/Aeson/Types/Class.hs:104)
+ 100% (  3 /  3) in 'Data.Aeson.Text'
+  97% ( 86 / 89) in 'Data.Aeson'
+  Missing documentation for:
+    ToJSONKeyFunction (Data/Aeson/Types/ToJSON.hs:458)
+    GToJSON (Data/Aeson/Types/Class.hs:103)
+    GToEncoding (Data/Aeson/Types/Class.hs:104)
+  33% (  1 /  3) in 'Data.Aeson.Encode'
+  Missing documentation for:
+    encode (Data/Aeson/Encode.hs:24)
+    encodeToTextBuilder (Data/Aeson/Encode.hs:28)
+ 100% ( 25 / 25) in 'Data.Aeson.TH'
+Warning: Data.Aeson.Types: could not find link destinations for:
+    GToJSON CoerceText AllNullary ParseSum FromProduct ProductSize ConsFromJSON
+Warning: Data.Aeson: could not find link destinations for:
+    GToJSON CoerceText AllNullary ParseSum FromProduct ProductSize ConsFromJSON
+Warning: Data.Aeson.TH: could not find link destinations for:
+    StarKindStatus
+Documentation created: dist/dist-sandbox-4b96eff2/doc/html/aeson/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-aeson-1.2.01023031201421620240.0
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/aeson-1.2.0.0-DSBSRSRpskQ4Bxyeh8Lru5
+Registering aeson-1.2.0.0...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27046/aeson-1.2.0.0'

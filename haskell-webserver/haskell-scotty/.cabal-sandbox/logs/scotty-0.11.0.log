@@ -1,0 +1,104 @@
+cabal: Entering directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27045/scotty-0.11.0'
+Configuring scotty-0.11.0...
+Building scotty-0.11.0...
+Preprocessing library scotty-0.11.0...
+[1 of 6] Compiling Web.Scotty.Internal.Types ( Web/Scotty/Internal/Types.hs, dist/dist-sandbox-4b96eff2/build/Web/Scotty/Internal/Types.o )
+[2 of 6] Compiling Web.Scotty.Util  ( Web/Scotty/Util.hs, dist/dist-sandbox-4b96eff2/build/Web/Scotty/Util.o )
+[3 of 6] Compiling Web.Scotty.Action ( Web/Scotty/Action.hs, dist/dist-sandbox-4b96eff2/build/Web/Scotty/Action.o )
+[4 of 6] Compiling Web.Scotty.Route ( Web/Scotty/Route.hs, dist/dist-sandbox-4b96eff2/build/Web/Scotty/Route.o )
+[5 of 6] Compiling Web.Scotty.Trans ( Web/Scotty/Trans.hs, dist/dist-sandbox-4b96eff2/build/Web/Scotty/Trans.o )
+[6 of 6] Compiling Web.Scotty       ( Web/Scotty.hs, dist/dist-sandbox-4b96eff2/build/Web/Scotty.o )
+[1 of 6] Compiling Web.Scotty.Internal.Types ( Web/Scotty/Internal/Types.hs, dist/dist-sandbox-4b96eff2/build/Web/Scotty/Internal/Types.p_o )
+[2 of 6] Compiling Web.Scotty.Util  ( Web/Scotty/Util.hs, dist/dist-sandbox-4b96eff2/build/Web/Scotty/Util.p_o )
+[3 of 6] Compiling Web.Scotty.Action ( Web/Scotty/Action.hs, dist/dist-sandbox-4b96eff2/build/Web/Scotty/Action.p_o )
+[4 of 6] Compiling Web.Scotty.Route ( Web/Scotty/Route.hs, dist/dist-sandbox-4b96eff2/build/Web/Scotty/Route.p_o )
+[5 of 6] Compiling Web.Scotty.Trans ( Web/Scotty/Trans.hs, dist/dist-sandbox-4b96eff2/build/Web/Scotty/Trans.p_o )
+[6 of 6] Compiling Web.Scotty       ( Web/Scotty.hs, dist/dist-sandbox-4b96eff2/build/Web/Scotty.p_o )
+Running Haddock for scotty-0.11.0...
+Preprocessing library scotty-0.11.0...
+Warning: The documentation for the following packages are not installed. No
+links will be generated to these packages: bytestring-builder-0.10.8.1.0,
+fail-4.9.0.0, nats-1.1.1
+Haddock coverage:
+   3% (  1 / 37) in 'Web.Scotty.Internal.Types'
+  Missing documentation for:
+    Module header
+    Options (Web/Scotty/Internal/Types.hs:40)
+     (Web/Scotty/Internal/Types.hs:50)
+    Middleware (Web/Scotty/Internal/Types.hs:54)
+    Application (Web/Scotty/Internal/Types.hs:55)
+    ScottyState (Web/Scotty/Internal/Types.hs:58)
+     (Web/Scotty/Internal/Types.hs:64)
+    addMiddleware (Web/Scotty/Internal/Types.hs:67)
+    addRoute (Web/Scotty/Internal/Types.hs:70)
+    addHandler (Web/Scotty/Internal/Types.hs:73)
+    ScottyT (Web/Scotty/Internal/Types.hs:76)
+    ActionError (Web/Scotty/Internal/Types.hs:81)
+     (Web/Scotty/Internal/Types.hs:92)
+     (Web/Scotty/Internal/Types.hs:96)
+    ErrorHandler (Web/Scotty/Internal/Types.hs:103)
+    Param (Web/Scotty/Internal/Types.hs:106)
+    File (Web/Scotty/Internal/Types.hs:108)
+    ActionEnv (Web/Scotty/Internal/Types.hs:110)
+    RequestBodyState (Web/Scotty/Internal/Types.hs:117)
+    BodyPartiallyStreamed (Web/Scotty/Internal/Types.hs:121)
+     (Web/Scotty/Internal/Types.hs:123)
+    Content (Web/Scotty/Internal/Types.hs:125)
+    ScottyResponse (Web/Scotty/Internal/Types.hs:129)
+     (Web/Scotty/Internal/Types.hs:134)
+    ActionT (Web/Scotty/Internal/Types.hs:137)
+     (Web/Scotty/Internal/Types.hs:140)
+     (Web/Scotty/Internal/Types.hs:145)
+     (Web/Scotty/Internal/Types.hs:148)
+     (Web/Scotty/Internal/Types.hs:156)
+     (Web/Scotty/Internal/Types.hs:164)
+     (Web/Scotty/Internal/Types.hs:167)
+     (Web/Scotty/Internal/Types.hs:173)
+     (Web/Scotty/Internal/Types.hs:177)
+     (Web/Scotty/Internal/Types.hs:186)
+    RoutePattern (Web/Scotty/Internal/Types.hs:192)
+     (Web/Scotty/Internal/Types.hs:196)
+   0% (  0 / 11) in 'Web.Scotty.Util'
+  Missing documentation for:
+    Module header
+    lazyTextToStrictByteString (Web/Scotty/Util.hs:27)
+    strictByteStringToLazyText (Web/Scotty/Util.hs:30)
+    setContent (Web/Scotty/Util.hs:33)
+    setHeaderWith (Web/Scotty/Util.hs:36)
+    setStatus (Web/Scotty/Util.hs:39)
+    mkResponse (Web/Scotty/Util.hs:45)
+    replace (Web/Scotty/Util.hs:54)
+    add (Web/Scotty/Util.hs:57)
+    addIfNotPresent (Web/Scotty/Util.hs:60)
+    socketDescription (Web/Scotty/Util.hs:68)
+  90% ( 26 / 29) in 'Web.Scotty.Action'
+  Missing documentation for:
+    Module header
+    Param (Web/Scotty/Internal/Types.hs:106)
+    runAction (Web/Scotty/Action.hs:68)
+  93% ( 13 / 14) in 'Web.Scotty.Route'
+  Missing documentation for:
+    Module header
+  91% ( 59 / 65) in 'Web.Scotty.Trans'
+  Missing documentation for:
+    Options (Web/Scotty/Internal/Types.hs:40)
+    Param (Web/Scotty/Internal/Types.hs:106)
+    RoutePattern (Web/Scotty/Internal/Types.hs:192)
+    File (Web/Scotty/Internal/Types.hs:108)
+    ScottyT (Web/Scotty/Internal/Types.hs:76)
+    ActionT (Web/Scotty/Internal/Types.hs:137)
+  90% ( 57 / 63) in 'Web.Scotty'
+  Missing documentation for:
+    Options (Web/Scotty/Internal/Types.hs:40)
+    Param (Web/Scotty/Internal/Types.hs:106)
+    ScottyM (Web/Scotty.hs:51)
+    ActionM (Web/Scotty.hs:52)
+    RoutePattern (Web/Scotty/Internal/Types.hs:192)
+    File (Web/Scotty/Internal/Types.hs:108)
+Documentation created: dist/dist-sandbox-4b96eff2/doc/html/scotty/index.html
+Creating package registration file:
+/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/pkgConf-scotty-0.119508850062098478515.0
+Installing library in
+/Users/emmablomsterberg/NetBeansProjects/functionalprogramming/haskell-webserver/haskell-scotty/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/scotty-0.11.0-FtLlPkPpzscGGf7GcjnCJ0
+Registering scotty-0.11.0...
+cabal: Leaving directory '/var/folders/q8/jjq2mxx95hld1fnhhnw8_k5w0000gn/T/cabal-tmp-27045/scotty-0.11.0'

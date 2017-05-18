@@ -1,0 +1,75 @@
+var _user$project$Main$Model = function (a) {
+	return {status: a};
+};
+var _user$project$Main$update = F2(
+	function (_p0, model) {
+		var _p1 = _p0;
+		return {
+			ctor: '_Tuple2',
+			_0: _user$project$Main$Model(_p1._0),
+			_1: _elm_lang$core$Platform_Cmd$none
+		};
+	});
+var _user$project$Main$Other = {ctor: 'Other'};
+var _user$project$Main$Married = {ctor: 'Married'};
+var _user$project$Main$Relationship = {ctor: 'Relationship'};
+var _user$project$Main$Complicated = {ctor: 'Complicated'};
+var _user$project$Main$Single = {ctor: 'Single'};
+var _user$project$Main$SetStatus = function (a) {
+	return {ctor: 'SetStatus', _0: a};
+};
+var _user$project$Main$viewFunc = F2(
+	function (textHtml, status) {
+		return A2(
+			_elm_lang$html$Html$input,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$type_('radio'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$name('status-radio'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$checked(true),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Events$onClick(
+								_user$project$Main$SetStatus(status)),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text(textHtml),
+				_1: {ctor: '[]'}
+			});
+	});
+var _user$project$Main$view = function (model) {
+	return A2(
+		_elm_lang$html$Html$fieldset,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: A2(_user$project$Main$viewFunc, 'Single', _user$project$Main$Single),
+			_1: {
+				ctor: '::',
+				_0: A2(_user$project$Main$viewFunc, 'It\'s complicated', _user$project$Main$Complicated),
+				_1: {ctor: '[]'}
+			}
+		});
+};
+var _user$project$Main$main = _elm_lang$html$Html$program(
+	{
+		init: {
+			ctor: '_Tuple2',
+			_0: _user$project$Main$Model(_user$project$Main$Single),
+			_1: _elm_lang$core$Platform_Cmd$none
+		},
+		view: _user$project$Main$view,
+		update: _user$project$Main$update,
+		subscriptions: function (m) {
+			return _elm_lang$core$Platform_Sub$none;
+		}
+	})();
