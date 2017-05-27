@@ -86,141 +86,91 @@ public class Machine {
         } else if(instr == 0b0000_1100) { //ALWAYS
             cpu.setFlag(true);
             cpu.incIp();
+        } else if(instr == 0b0000_1111) { //HALT
+            System.out.println("HALT");
+        } else if((instr & 0b1111_1110) == 0b0001_0000) { //PUSH r
+            int r = (instr & 0b0000_0001);
+            cpu.decSp();
+            if(r == 1) {
+                memory.set(cpu.getSp(), cpu.getB());
+            } else {
+                memory.set(cpu.getSp(), cpu.getA());
+            }
+            cpu.incIp();
+        } else if((instr & 0b1111_1110) == 0b0001_0010) { //POP r
+            int r = (instr & 0b0000_0001);
+            if(r == 1) {
+                cpu.setSp(cpu.getSp()+1);
+                cpu.setB(memory.get(cpu.getSp()));
+            } else {
+                cpu.setSp(cpu.getSp()+1);
+                cpu.setA(memory.get(cpu.getSp()));
+            }
+            cpu.incIp();
+        } else if(instr == 0b0001_0100) { //MOV A B
+            cpu.setB(cpu.getA());
+            cpu.incIp();
+        } else if(instr == 0b0001_0101) { //MOV B A
+            cpu.setA(cpu.getB());
+            cpu.incIp();
+        } else if(instr == 0b0001_0110) { //INC
+            cpu.setA(cpu.getA() + 1);
+            cpu.incIp();
+        } else if(instr == 0b0001_0111) { //DEC
+            cpu.setA(cpu.getA() - 1);
+            cpu.incIp();
+        } else if((instr & 0b1111_1000) == 0b0001_1000) { //RTN
+            int o = (instr & 0b0000_0111);
+            cpu.setSp(cpu.getSp() + 1);
+            cpu.setIp(cpu.getSp());
+            cpu.setSp(cpu.getSp() + o);
+            cpu.incIp();
+        } else if((instr & 0b1111_0000) == 0b0010_0000) { //MOV r o
+            int r = (instr & 0b0000_1110) >> 1;
+            int o = (instr & 0b0000_0001);
+            if(r == 0) {
+                cpu.setA(memory.get(cpu.getSp() + o));
+            } else {
+                cpu.setB(memory.get(cpu.getSp() + o));
+            }
+            cpu.incIp();
+        } else if((instr & 0b1111_0000) == 0b0011_0000) { //MOV o r
+            int r = (instr & 0b0011_0001);
+            int o = (instr & 0b0011_1110) >> 1;
+            if(r == 1) {
+                cpu.setB(memory.get(cpu.getSp() + o));
+            } else {
+                cpu.setA(memory.get(cpu.getSp() + o));
+            }
+            cpu.incIp();
+        } else if ((instr & 0b1100_0000) == 0b0100_0000) { //MOV v r
+            int v = (instr & 0b0011_1110) >> 1;
+            int r = (instr & 0b0000_0001);
+            if(r == cpu.B) {
+                cpu.setB(v);
+            } else {
+                cpu.setA(v);
+            }
+            cpu.incIp();
+        } else if ((instr & 0b1100_0000) == 0b1000_0000) { //JMP #a
+            
+            if(cpu.isFlag()) {
+                int a = (instr & 0b0011_1111);
+                cpu.setIp(a);
+            } else {
+                cpu.incIp();
+            }
+        } else if ((instr & 0b1100_0000) == 0b1100_0000) { //CALL #a
+            if(cpu.isFlag()) {
+                int a = (instr & 0b0011_1111);
+                cpu.decSp();
+                memory.set(cpu.getSp(), cpu.getIp());
+                cpu.setIp(a);
+            } else {
+                cpu.incIp();
+            }
         }
-//        switch (instr) {
-//            case 0b0000_0000: //NOP
-//                cpu.incIp();
-//                break;
-//            case 0b0000_0001: //ADD
-//                cpu.setA(cpu.getA() + cpu.getB());
-//                cpu.incIp();
-//                break;
-//
-//            case 0b0000_0010: //MUL
-//                cpu.setA(cpu.getA() * cpu.getB());
-//                cpu.incIp();
-//                break;
-//
-//            case 0b0000_0011: //DIV
-//                cpu.setA(cpu.getA() / cpu.getB());
-//                cpu.incIp();
-//                break;
-//
-//            case 0b0000_0100: //ZERO
-//                if (cpu.getA() == 0) {
-//                    cpu.setFlag(true);
-//                    cpu.incIp();
-//                }
-//
-//                break;
-//
-//            case 0b0000_0101: //NEG
-//                if (cpu.getA() < 0) {
-//                    cpu.setFlag(true);
-//                    cpu.incIp();
-//                }
-//                break;
-//
-//            case 0b0000_0110: //POS 
-//                if (cpu.getA() > 0) {
-//                    cpu.setFlag(true);
-//                    cpu.incIp();
-//                }
-//
-//                break;
-//
-//            case 0b0000_0111: //NZERO 
-//                if (cpu.getA() != 0) {
-//                    cpu.setFlag(true);
-//                }
-//                break;
-//                
-//            case 0b0000_1000: //EG
-//                if(cpu.getA() == cpu.getB()) {
-//                    cpu.setFlag(true);
-//                    cpu.incIp();
-//                }
-//                break;
-//            
-//            case 0b0000_1001: //LT
-//                if(cpu.getA() < cpu.getB()) {
-//                    cpu.setFlag(true);
-//                    cpu.incIp();
-//                }
-//                break;
-//            
-//            case 0b0000_1010: //GT 
-//                if(cpu.getA() > cpu.getB()) {
-//                    cpu.setFlag(true);
-//                    cpu.incIp();
-//                }
-//                break;
-//                
-//            case 0b0000_1011: //NEQ
-//                if(cpu.getA() != cpu.getB()) {
-//                    cpu.setFlag(true);
-//                    cpu.incIp();
-//                }
-//                break;
-//                
-//            case 0b0000_1100: //ALWAYS
-//                cpu.setFlag(true);
-//                cpu.incIp();
-//                break;
-//                
-//                
-//                
-//            case 0b0010_0000:
-//                int o = instr & 0b0000_0111;
-//                int r = (instr & 0b0000_1000) >> 3;
-//                if (r == cpu.A) {
-//                    memory.set(cpu.getSp() + o, cpu.getA());
-//                } else {
-//                    memory.set(cpu.getSp() + o, cpu.getB());
-//                }
-//                cpu.setIp(cpu.getIp() + 1);
-//                break;
-
-        }
-//        if (instr == 0b0000_0000) {
-//            // 0000 0000  NOP
-//            cpu.incIp();
-//            // cpu.setIp(cpu.getIp() + 1);
-//        } else if (instr == 0b0000_0001) {
-//            // 0000 0001 ADD A B
-//            cpu.setA(cpu.getA() + cpu.getB());
-//            cpu.setIp(cpu.getIp() + 1);
-//        } // ..
-//        else if ((instr & 0b1111_0000) == 0b0010_0000) {
-//            // 0010 r ooo	MOV r o	   [SP + o] ← r; IP++
-//
-//            // 0010 1 011 MOV B (=1) +3  [SP +3] // Move register B to memory position of SP with offset 3
-//            // 00101011 finding instruction
-//            //    and
-//            // 11110000
-//            // --------
-//            // 00100000
-//            // 00101011 finding offset
-//            //    and
-//            // 00000111
-//            // --------
-//            // 00000011 = 3
-//            // 00101011 finding register
-//            //    and
-//            // 00001000
-//            // --------
-//            // 00001000 = 8
-//            //    >> 3
-//            // 00000001 = 1
-//            int o = instr & 0b0000_0111;
-//            int r = (instr & 0b0000_1000) >> 3;
-//            if (r == cpu.A) {
-//                memory.set(cpu.getSp() + o, cpu.getA());
-//            } else {
-//                memory.set(cpu.getSp() + o, cpu.getB());
-//            }
-//            cpu.setIp(cpu.getIp() + 1);
-//        }
+    }
     
 
     public void print(PrintStream out) {
