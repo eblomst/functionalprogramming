@@ -6,7 +6,11 @@ public class Machine {
 
     private Cpu cpu = new Cpu();
     private Memory memory = new Memory();
-
+    
+    public Cpu getCpu() {
+        return cpu;
+    }
+    
     public void load(Program program) {
         int index = 0;
         for (int instr : program) {
