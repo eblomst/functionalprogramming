@@ -1,7 +1,8 @@
-**Virtual-CPU**
+**Virtual-CPU Assignment 2 and Assignment 7**
 
 Clone repository. Go to package 'dk.cphbusiness.virtualcpu'
-See changes in Machine.java. Run project Main.java
+See changes in Machine.java. Run project Main.java. To run the Tail recursion 
+load tailFactProgram into the machine.
 
 **Lisp-exercises and Pi calculation**
 
