@@ -44,4 +44,5 @@ in the input fields and see a list of your inputs.
 
 **Haskell webserver Assignemnt 7**
 
-Compile haskell server and start elm application. 
+Compile haskell server in folder "haskellelm/src" and start elm application in
+folder "elm-exercises/chat". 
