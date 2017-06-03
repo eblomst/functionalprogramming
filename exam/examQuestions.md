@@ -4,12 +4,31 @@
 
 * What is an instruction?
 
-  An instruction tells 
+An instruction is a way to the computer what to do. Like in our CPU assignment this is an instruction:
+
+````
+0000 0001  | ADD
+````
+
+This instruction let's the computer know that it should set A to the value A + B and then increase the instruction pointer.
 
 * What is a CPU?
+
+Is the brain of the computer where most calculations takes place. This carries out the instructions the computer is given. 
+
+It executes the instructions squentially.
+
 * What is tail recursion? 
+
+Tail recursion is when the very last call is a recursive call.
+
 * When can tail recursion be applied?
+
+When the recursive call is the very last and there's only one.
+
 * Why is tail recursion necessary in FP?
+
+
 
 ## 2. Map and flatmap
 
@@ -19,6 +38,7 @@ An array is group of elements that is stored one after another. Linkedlist consi
 Linkedlist has a flexible size and arrays size is final. If you want a larger array you have to create a array that's bigger and then loop through
 the previous array and add the values in the new array. If you need to add new data to the linkedlist you just have to create a new node and change the last nodes
 reference from null to the new node.
+
 It's faster to get to a specific index in an array because you know exactly where it is (index) but in a linkedlist might not be after each other for example the last node is 
 actually at position 6 in memory.
  
@@ -47,6 +67,7 @@ all the lists inside that list into one long list.
 ## 3. Elm
 
 * What are some of the differences between OOP and FP?
+
 
 
 * Why do we need the Elm runtime?
@@ -128,7 +149,23 @@ Your own Http request:
 ## 4. Haskell
 
 * What is a side-effect?
+
+Side-effects are modelled as Monads 
+
 * How do Haskell handle side-effects? What does 'IO ()' mean?
+
+Haskell consists of types, everything needs a type. 
+
 * What does it mean that functions are first-class citizens?
+
+In java the Classes are the first-class citizens but in functionel programming the functions are first-class citizens.
+
+In java you first instanciate a class and then you can you the methods in that class but in functionel programming you can pass functions as arguments in other functions. Like Higher-Order functions.
+
+
 * What is recursion?
+
+
+
 * What are some of the benefits of using Haskell?
+
