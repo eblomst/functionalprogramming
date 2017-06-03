@@ -89,7 +89,7 @@ Yes
 String.reverse "hej".
 ```
 * Can you write a call to a HTTP endpoint?
-    -You can build your own HTTP request or use HTTP.get (only if you have to use method 'GET')
+    - You can build your own HTTP request or use HTTP.get (only if you have to use method 'GET')
 
 Http.get:
 ```
