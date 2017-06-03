@@ -90,6 +90,8 @@ String.reverse "hej".
 ```
 * Can you write a call to a HTTP endpoint?
 You can build your own HTTP request or use HTTP.get (only if you have to use method 'GET')
+
+Http.get:
 ```
 let
         url = "http://localhost:3000/counter"
@@ -105,6 +107,21 @@ let
     in
      	 Http.send Counter (Http.get url decodeUrl)
     --   Http.send Counter (request decodeUrl)
+```
+Your own Http request:
+```
+   let
+	 request = Http.request
+     	       { method = "GET"
+     	       , headers =  []
+     	       , url = "http://localhost:3000/counter"
+     	       , body = Http.emptyBody
+	       , expect = Http.expectJson decodeUrl
+      	       , timeout = Nothing
+       	       , withCredentials = False
+      	}
+	in 
+  	   Http.send Counter (request decodeUrl)
 ```
 
 ## 4. Haskell
