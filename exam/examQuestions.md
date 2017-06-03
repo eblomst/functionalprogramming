@@ -3,7 +3,9 @@
 ## 1. Virtual CPU and tail recursion
 
 * What is an instruction?
+
   An instruction tells 
+
 * What is a CPU?
 * What is tail recursion? 
 * When can tail recursion be applied?
@@ -12,6 +14,7 @@
 ## 2. Map and flatmap
 
 * What is the difference between an array and a linked list?
+
 An array is group of elements that is stored one after another. Linkedlist consists of nodes that has data and a reference to the next node in the list.
 Linkedlist has a flexible size and arrays size is final. If you want a larger array you have to create a array that's bigger and then loop through
 the previous array and add the values in the new array. If you need to add new data to the linkedlist you just have to create a new node and change the last nodes
@@ -20,9 +23,10 @@ It's faster to get to a specific index in an array because you know exactly wher
 actually at position 6 in memory.
  
 * What is recursion?
-    Recursion is a function that is able to call itself. Some functional programming languages does not define any looping constructs so we use recursion to repeatly to call
-    code.
-    (Insert example code)
+
+ Recursion is a function that is able to call itself. Some functional programming languages does not define any looping constructs so we use recursion to repeatly to call
+ code.
+ (Insert example code)
 
 * What is a higher-order function?
 
@@ -46,14 +50,18 @@ all the lists inside that list into one long list.
 
 
 * Why do we need the Elm runtime?
+
 Elm Runtime  -> Update -> View  -> Elm Runtime.
 Msg: is the input we get from the client.
 Update: receives the Msg and from the Msg updates and goes to the view.
 View (HTML): The view consists of HTML and is what we send on the page.
  
 * What are some of the benefits of using Elm?
+
 There are no runtime errors. 
+
 * What is the ``Maybe`` type in Elm? When is it used?
+
 We use this type when we what to do Error handling. We have used when doing HTTP requests. 
 Maybe is a union type. 
 Maybe can return 'Just' or Nothing. The definition looks like this:
@@ -72,6 +80,7 @@ case msg of
 	Nothing -> 
 ``` 
 * What is the ``Result`` type in Elm? When is it used?
+
 This is used for Error Handling in Elm. It's a union type. 
 
 The definition looks like this:
@@ -83,7 +92,9 @@ type Result error value =
 This is similar to Maybe. This type has two variable types. An Error and Value. If it has gone good it goes down to the OK and shows the value. If it
 has gone bad it goes down to the Error and show the error msg. With the 'Maybe' we would not see the error message but in 'Result we will. I would prefer 
 this union type for Error handling.
+
 * Can you reverse a string in Elm?
+
 Yes
 ```
 String.reverse "hej".
