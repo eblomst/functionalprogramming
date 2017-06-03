@@ -3,7 +3,7 @@
 ## 1. Virtual CPU and tail recursion
 
 * What is an instruction?
- - An instruction tells 
+ > An instruction tells 
 * What is a CPU?
 * What is tail recursion? 
 * When can tail recursion be applied?
