@@ -20,9 +20,9 @@ It's faster to get to a specific index in an array because you know exactly wher
 actually at position 6 in memory.
  
 * What is recursion?
-Recursion is a function that is able to call itself. Some functional programming languages does not define any looping constructs so we use recursion to repeatly to call
-code.
-(Insert example code)
+    Recursion is a function that is able to call itself. Some functional programming languages does not define any looping constructs so we use recursion to repeatly to call
+    code.
+    (Insert example code)
 
 * What is a higher-order function?
 
