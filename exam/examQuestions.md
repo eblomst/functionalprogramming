@@ -10,7 +10,9 @@ An instruction is a way to the computer what to do. Like in our CPU assignment t
 0000 0001  | ADD
 ````
 
-This instruction let's the computer know that it should set > A to the value >  A + B and then > increase the instruction pointer.
+This instruction let's the computer know that it should 
+
+> set A to the value A + B and then increase the instruction pointer.
 
 * What is a CPU?
 
