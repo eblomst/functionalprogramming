@@ -48,7 +48,16 @@ actually at position 6 in memory.
 
  Recursion is a function that is able to call itself. Some functional programming languages does not define any looping constructs so we use recursion to repeatly to call
  code.
- (Insert example code)
+ 
+````
+public long fibonacci(int n) {
+        if (n <= 0) {
+          return n;
+        } else {
+          return fibonacci(n - 1) + fibonacci(n - 2);
+        }
+}
+````
 
 * What is a higher-order function?
 
@@ -70,16 +79,21 @@ all the lists inside that list into one long list.
 
 * What are some of the differences between OOP and FP?
 
-
+OOP: Klasser, objekter
+FP: 
 
 * Why do we need the Elm runtime?
-
+That controls the application. 
 Elm Runtime  -> Update -> View  -> Elm Runtime.
 Msg: is the input we get from the client.
 Update: receives the Msg and from the Msg updates and goes to the view.
 View (HTML): The view consists of HTML and is what we send on the page.
  
 * What are some of the benefits of using Elm?
+
+Type inference means that we don’t need to declare all the types ourselves, we can let the compiler infer many of the types for us. For example by writing one = 1, the compiler knows that one is an integer.
+
+immutable data 
 
 There are no runtime errors. 
 
@@ -156,7 +170,13 @@ Side-effects are modelled as Monads
 
 * How do Haskell handle side-effects? What does 'IO ()' mean?
 
-Haskell consists of types, everything needs a type. 
+IO () means nothing. See example
+
+````
+putString :: String -> IO ()
+
+````
+This means that a function that takes a String and then returns nothing. This is equal to void in Java. 
 
 * What does it mean that functions are first-class citizens?
 
@@ -167,7 +187,21 @@ In java you first instanciate a class and then you can you the methods in that c
 
 * What is recursion?
 
+Divide and conqour. Find your basecase
 
+ Recursion is a function that is able to call itself. Some functional programming languages does not define any looping constructs so we use recursion to repeatly to call
+ code.
+
+````
+public long fibonacci(int n) {
+	if (n <= 0) {
+	  return n;
+	} else {
+	  return fibonacci(n - 1) + fibonacci(n - 2);
+	}
+}
+````
 
 * What are some of the benefits of using Haskell?
 
+When it compiles there is no errors. 
