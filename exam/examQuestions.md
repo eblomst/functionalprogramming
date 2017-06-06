@@ -30,7 +30,7 @@ When the recursive call is the very last and there's only one.
 
 * Why is tail recursion necessary in FP?
 
-
+The size of stack - prevents stackoverflow. Some FP languages doesn't have looping so recursion is used.
 
 ## 2. Map and flatmap
 
@@ -83,6 +83,7 @@ OOP: Klasser, objekter
 FP: 
 
 * Why do we need the Elm runtime?
+
 That controls the application. 
 Elm Runtime  -> Update -> View  -> Elm Runtime.
 Msg: is the input we get from the client.
